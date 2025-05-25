@@ -12,3 +12,4 @@ scipy>=1.7
 statsmodels>=0.13
 Pillow>=9.0
 h5py>=3.6
+pytorch
