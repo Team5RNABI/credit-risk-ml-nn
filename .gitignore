@@ -76,7 +76,7 @@ docs/_build/
 target/
 
 # Jupyter Notebook
-.ipynb_checkpoints
+.ipynb_checkpoints/
 
 # IPython
 profile_default/
@@ -172,3 +172,46 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+######################################################
+#   NUEVAS EXCLUSIONES ESPECÍFICAS DE DATA SCIENCE
+######################################################
+
+#  Archivos de datos (CSV, Excel, Parquet, etc.)
+data/
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.sav
+*.sas7bdat
+*.zip
+*.gz
+*.bz2
+
+# Artefactos de modelos y checkpoints
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+*.joblib
+*.pkl
+*.onnx
+*.model
+
+# Experiment tracking (MLflow / DVC / etc.)
+mlruns/
+.dvc/
+.dvc/cache/
+
+# Configuraciones y entornos de IDE
+.vscode/
+.idea/
+
+# Archivos de sistema / miniaturas
+.DS_Store
+Thumbs.db
