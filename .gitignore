@@ -194,12 +194,10 @@ data/
 
 # Artefactos de modelos y checkpoints
 *.pt
-*.pth
 *.ckpt
 *.h5
 *.hdf5
 *.joblib
-*.pkl
 *.onnx
 *.model
 
